@@ -79,13 +79,17 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Movement - SamanthaYue">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="SSH的使用SSH的经典用途是登录到远程计算机中执行命令。除此之外，SSH也支持隧道协议、端口映射和X11连接。借助SFTP或SCP协议还可以传输文件。 SSH使用客户端-服务器模型。服务器端需要开启SSH守护进程以便接受远端的连接，而用户需要使用SSH客户端与其创建连接。标准端口中的22端口分配给了SSH服务。 大多数现代操作系统（包括macOS、大部分Linux、OpenBSD、FreeBSD">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SSH相关笔记">
+<meta property="og:url" content="http://yoursite.com/2018/07/09/SSH相关笔记/index.html">
 <meta property="og:site_name" content="Movement - SamanthaYue">
+<meta property="og:description" content="SSH的使用SSH的经典用途是登录到远程计算机中执行命令。除此之外，SSH也支持隧道协议、端口映射和X11连接。借助SFTP或SCP协议还可以传输文件。 SSH使用客户端-服务器模型。服务器端需要开启SSH守护进程以便接受远端的连接，而用户需要使用SSH客户端与其创建连接。标准端口中的22端口分配给了SSH服务。 大多数现代操作系统（包括macOS、大部分Linux、OpenBSD、FreeBSD">
 <meta property="og:locale" content="english">
+<meta property="og:updated_time" content="2018-07-09T08:20:06.863Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Movement - SamanthaYue">
+<meta name="twitter:title" content="SSH相关笔记">
+<meta name="twitter:description" content="SSH的使用SSH的经典用途是登录到远程计算机中执行命令。除此之外，SSH也支持隧道协议、端口映射和X11连接。借助SFTP或SCP协议还可以传输文件。 SSH使用客户端-服务器模型。服务器端需要开启SSH守护进程以便接受远端的连接，而用户需要使用SSH客户端与其创建连接。标准端口中的22端口分配给了SSH服务。 大多数现代操作系统（包括macOS、大部分Linux、OpenBSD、FreeBSD">
 
 
 
@@ -115,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/07/09/SSH相关笔记/"/>
 
 
 
 
 
-  <title>Movement - SamanthaYue</title>
+  <title>SSH相关笔记 | Movement - SamanthaYue</title>
   
 
 
@@ -140,8 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,9 +217,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -246,9 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/09/SSH相关笔记/" itemprop="url">SSH相关笔记</a></h1>
+          <h1 class="post-title" itemprop="name headline">SSH相关笔记</h1>
         
 
         <div class="post-meta">
@@ -331,16 +332,12 @@
       
 
       
-        
-          
-            <h1 id="SSH的使用"><a href="#SSH的使用" class="headerlink" title="SSH的使用"></a>SSH的使用</h1><p>SSH的经典用途是登录到远程计算机中执行命令。除此之外，SSH也支持隧道协议、端口映射和X11连接。借助SFTP或SCP协议还可以传输文件。</p>
+        <h1 id="SSH的使用"><a href="#SSH的使用" class="headerlink" title="SSH的使用"></a>SSH的使用</h1><p>SSH的经典用途是登录到远程计算机中执行命令。除此之外，SSH也支持隧道协议、端口映射和X11连接。借助SFTP或SCP协议还可以传输文件。</p>
 <p>SSH使用客户端-服务器模型。服务器端需要开启SSH守护进程以便接受远端的连接，而用户需要使用SSH客户端与其创建连接。标准端口中的22端口分配给了SSH服务。</p>
 <p>大多数现代操作系统（包括macOS、大部分Linux、OpenBSD、FreeBSD、Solaris等系统）都提供了SSH，但Windows系统未自带SSH程序。Windows用户可以使用Cygwin来创建SSH服务。SSH客户端种类很多，包括专有软件、免费软件和开源软件，例如PuTTY和传输文件专用的WinSCP等。</p>
 <p>从云计算的角度上讲，SSH能够阻止一些因直接暴露在互联网而产生的安全问题，在解决连接问题上发挥了重要作用。SSH隧道可以在互联网、防火墙和虚拟机之间提供一个安全的通道。</p>
 <h1 id="SSH常用命令"><a href="#SSH常用命令" class="headerlink" title="SSH常用命令"></a>SSH常用命令</h1><h2 id="连接远程计算机"><a href="#连接远程计算机" class="headerlink" title="连接远程计算机"></a>连接远程计算机</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh username@remote_host</span><br></pre></td></tr></table></figure>
 
-          
-        
       
     </div>
     
@@ -357,165 +354,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/29/Introduction/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="SamanthaYue">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Movement - SamanthaYue">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/29/Introduction/" itemprop="url">Introduction</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-06-29T13:54:15+08:00">
-                2018-06-29
-              </time>
+              <a href="/2018/06/29/Introduction/" rel="next" title="Introduction">
+                <i class="fa fa-chevron-left"></i> Introduction
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Personal-Posts/" itemprop="url" rel="index">
-                    <span itemprop="name">Personal Posts</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2018/06/29/Introduction/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2018/06/29/Introduction/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p><strong>I am born to post new things.</strong><br>生来就喜欢记录和发表言论，论坛和博客是我的童年回忆。<br>恰巧如今，作为即将步入Senior阶段的CS专业本科生，我也意识到了博客的必要性，它是“浅尝辄止”的完美天敌，也是治疗当今“点赞焦虑症”的妙方。希望自己能像深海鱼那样，在海洋透光带以下，深深深潜。<br>已经太久没有花掉一个下午，一个晚上只为写完一篇博文，看到微博的post，超过五段就觉得意味深长感人肺腑。这不好，我要改正。<strong>这个世界上有太多东西值得我细细品味和记录啦，区区几条短时的心情感言配不上生活的恩赐。</strong><br>我是章章，还很好学，还在天天向上，大家多多指教。</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -525,10 +385,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -536,6 +397,20 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -556,8 +431,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -612,6 +496,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#SSH的使用"><span class="nav-number">1.</span> <span class="nav-text">SSH的使用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SSH常用命令"><span class="nav-number">2.</span> <span class="nav-text">SSH常用命令</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#连接远程计算机"><span class="nav-number">2.1.</span> <span class="nav-text">连接远程计算机</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -745,6 +645,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -762,6 +666,18 @@
       <script id="dsq-count-scr" src="https://samanthayue.disqus.com/count.js" async></script>
     
 
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://yoursite.com/2018/07/09/SSH相关笔记/';
+          this.page.identifier = '2018/07/09/SSH相关笔记/';
+          this.page.title = 'SSH相关笔记';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://samanthayue.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
     
 
   
